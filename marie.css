@@ -1,18 +1,18 @@
 
 .controller.custom {
-    background: url(base.png); 
-    height: 558px;
-    width: 866px;
+    background: url(MarieButtons.png); 
+    height: 1080px;
+    width: 1920px;
 }
 
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(disconnected.png);
+    background: url(MarieButtonsoff.png);
 }
 
 
 .custom .triggers { /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 581px;
-    height: 47px;
+    width: 180px;
+    height: 180px;
     position: absolute;
     left: 144px;
     top: 9px;
@@ -23,9 +23,9 @@
 }
 
 .custom .trigger {/* These are the actual triggers themselves */
-    width:80px;
-    height:46px;
-    background: url(trigger.png);
+    width:180px;
+    height:180px;
+    background: url(mariealsobutton.png);
 }
 
 .custom .trigger.pressed {
